@@ -1,0 +1,30 @@
+{
+  "name": "buda-buy-script",
+  "version": "1.0.0",
+  "description": "script to buy crypto with buda.com",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ccxt": "^1.31.80",
+    "command-line-args": "^5.1.1",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolcalmi/buda-buy-script.git"
+  },
+  "keywords": [
+    "buda",
+    "buy"
+  ],
+  "author": "-_-",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dolcalmi/buda-buy-script/issues"
+  },
+  "homepage": "https://github.com/dolcalmi/buda-buy-script#readme"
+}
