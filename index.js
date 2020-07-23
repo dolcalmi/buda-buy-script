@@ -22,10 +22,10 @@ getCoinRate(base, quote, amount)
 
 /**
  * Get a market rate for the given quote (COP, CLP, PEN, ARS)
- * @param  {[type]} base        base currency (BTC, ETH, LTC)
- * @param  {[type]} quote       quote currency (COP, CLP, PEN, ARS)
- * @param  {[type]} quoteAmount amount to validate
- * @return {[type]}             base amount
+ * @param  {string} base        base currency (BTC, ETH, LTC)
+ * @param  {string} quote       quote currency (COP, CLP, PEN, ARS)
+ * @param  {number} quoteAmount amount to validate
+ * @return {number}             base amount
  */
 function getCoinRate(base, quote, quoteAmount) {
   if (quoteAmount <= 0)
@@ -52,11 +52,11 @@ function getCoinRate(base, quote, quoteAmount) {
 
 /**
  * Creates a market order
- * @param  {[type]} base       base currency (BTC, ETH, LTC)
- * @param  {[type]} quote      quote currency (COP, CLP, PEN, ARS)
- * @param  {[type]} baseAmount order amount
- * @param  {[type]} options    buda api key and secret object { apiKey, secret }
- * @return {[type]}            buda order
+ * @param  {string} base       base currency (BTC, ETH, LTC)
+ * @param  {string} quote      quote currency (COP, CLP, PEN, ARS)
+ * @param  {number} baseAmount order amount
+ * @param  {object} options    buda api key and secret object { apiKey, secret }
+ * @return {object}            buda order
  */
 function marketBuy(base, quote, baseAmount, options) {
   if (baseAmount <= 0)
