@@ -4,7 +4,7 @@
   "description": "script to buy crypto with buda.com",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "ccxt": "^1.31.80",
     "command-line-args": "^5.1.1",
     "debug": "^4.1.1"
