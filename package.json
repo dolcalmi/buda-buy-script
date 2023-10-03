@@ -7,7 +7,7 @@
     "axios": "^0.21.4",
     "ccxt": "^1.31.80",
     "command-line-args": "^5.1.1",
-    "debug": "^4.1.1"
+    "debug": "^4.3.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
